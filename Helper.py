@@ -195,7 +195,7 @@ try:
                                 time.sleep(0.3)
                                 #강의 시간 전 빠져나올 때의 alert
                                 #alert_accept(browser)
-                                lec_time = RestTime(rest_time_list[i+1])
+                                lec_time = RestTime(rest_time_list[i+sub])
                                 time.sleep(lec_time) #lec_time
                                 print(f"{lec_time // 60}min, {lec_time % 60}seconds left.")
                         

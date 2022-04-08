@@ -211,7 +211,7 @@ try:
                     except:
                         print(f"{week}week-{i+1}은 이미 늦었습니다 ㅠㅠ. 강의는 제때 들으셔야죠.")
                 else:
-                    print(f"{week}week-{i+1} have done.")
+                    print(f"{week}week-{i+1} is done.")
             print("\n")
             time.sleep(0.3)
 
